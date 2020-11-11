@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemento section y article</title>
+</head>
+<body>
+    <header>
+        <h1>Mozilla</h1>
+    </header>
+
+    <main>
+
+        <!-- 
+            El elemento section:
+            Es una agrupación temática del contenido,
+            normalmente con un encabezado.
+        -->
+        <section>
+
+            <!-- Encabezado de segundo nivel. -->
+            <h2>Firefox</h2>
+
+            <!-- 
+                El elemento article:
+                Representa una composición completa o autónoma
+                en el documento, que se destina a distribuir de
+                forma independiente o reutilizable.
+            -->
+            <article>
+                <h3>Nuestro impacto</h3>
+                <p>
+                    Cuando usas Firefox, ayudas a Mozilla a luchar contra la desinformación
+                    en Internet, enseñar habilidades digitales y hacer más humana la sección
+                    de comentarios. Mira lo que ayuda a crear un Internet más saludable.
+                </p>
+            </article>
+            <article>
+
+                <!--
+                    El elemento article puede contener un elemento header.
+                -->
+                <header>
+                    <h3>Nuestras innovaciones</h3>
+                </header>
+                <p>
+                    Al usar la Web como plataforma, construimos tecnologías abiertas e
+                    innovadoras que permiten a los desarrolladores liberarse de los ecosistemas
+                    corporativos cerrados, con el fin de crear una Web más segura y rápida
+                    para todos nosotros.
+                </p>
+
+                <!--
+                    El elemento article también puede contener un elemento footer.
+                -->
+                <footer>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="">Common Voice</a>
+                            </li>
+                            <li>
+                                <a href="">Plataforma en realidad virtual</a>
+                            </li>
+                            <li>
+                                <a href="">Servo</a>
+                            </li>
+                            <li>
+                                <a href="">Rust</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </footer>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        Ejercicio basado en la página de <a href="https://www.mozilla.org/es-ES/">Mozilla</a> el 11 de Noviembre del 2020.
+    </footer>
+</body>
+</html>
